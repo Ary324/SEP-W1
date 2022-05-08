@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Users\User\OneDrive - Seneca\Seneca_Teaching\SenecaCourseBank\SEP200-Object-Oriented Programming\SEP200\sep200\Week1\Union\Product.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
