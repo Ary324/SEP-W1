@@ -64,7 +64,8 @@ Test and demonstrate the execution of your program using the data given to you a
 
 
 - Please email five files: `BankMain.cpp`, `BankManager.cpp`, `BankManager.h`, `InvestmentAccount.cpp` and `InvestmentAccount.h` in addition to the `reflect.txt` to email address: <mufleh.al-shatnawi@senecacollege.ca>
-- Email Subject Line should be **SEP200-NAA-WS01**
+
+### Email Subject Line should be **SEP200-NAA-WS01**
 
 ###  **Late submissions will incur a 25% penalty each day.**
 
