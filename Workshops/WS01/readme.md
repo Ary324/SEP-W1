@@ -67,7 +67,7 @@ Test and demonstrate the execution of your program using the data given to you a
 
 - Email Subject Line should be **`SEP200-NAA-WS01`**
 
-###  **Late submissions will incur a 25% penalty each day.**
+####  Late submissions will incur a 25% penalty each day.
 
 **:warning:Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Resubmissions will attract a penalty.
 
