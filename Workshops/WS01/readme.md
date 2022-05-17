@@ -22,9 +22,9 @@ You have been given five files: `BankMain.cpp`, `BankManager.cpp`, `BankManager.
 - `InvestmentAccount.cpp` and `InvestmentAccount.h` are **mostly empty**. The only functions implemented are **PurchaseStocks** and **SellStocks**. The others have not.
 
 
-	- For `BankManager.cpp`, implement the overloading of the ** *==* operator** such that true is returned if the names of the investment accounts are the same, false otherwise. Do not forget the function prototype in the header file `BankManager.h`
-	- For `InvestmentAccount.cpp`, implement the overload of the ** *+=* operator**. This should add cash to the investment account. If the amount to be added is negative, print out the error message `"Invalid transaction"`. Do not forget the function prototype in the header file `InvestmentAccount.h`.
-	- For `InvestmentAccount.cpp`, implement the overload of the ** *-=* operator**. This should subtract cash from the investment account. If the amount to be subtracted is negative, print out the error message `"Invalid transaction"`. If there isn't enough cash in the account, print out the error message `"Not enough funds in the account for <name>"`. Be sure to insert the name in the error message. See the sample run below as an example. Do not forget the function prototype in the header file `InvestmentAccount.h`
+	- For `BankManager.cpp`, implement the overloading of the **== operator** such that true is returned if the names of the investment accounts are the same, false otherwise. Do not forget the function prototype in the header file `BankManager.h`
+	- For `InvestmentAccount.cpp`, implement the overload of the **+= operator**. This should add cash to the investment account. If the amount to be added is negative, print out the error message `"Invalid transaction"`. Do not forget the function prototype in the header file `InvestmentAccount.h`.
+	- For `InvestmentAccount.cpp`, implement the overload of the **-= operator**. This should subtract cash from the investment account. If the amount to be subtracted is negative, print out the error message `"Invalid transaction"`. If there isn't enough cash in the account, print out the error message `"Not enough funds in the account for <name>"`. Be sure to insert the name in the error message. See the sample run below as an example. Do not forget the function prototype in the header file `InvestmentAccount.h`
 	- Implement the constructors for `InvestmentAccount`. The variables name and cash should default to `""` and `0.0` respectively.
 	- Implement all getter functions for `InvestmentAccount`: `GetName()`, `GetValue()`, `GetStocks()` and `GetCash()`.
 	- Implement the destructor for `InvestmentAccount`. **Be sure to wipe out all information**.
@@ -52,8 +52,8 @@ A sample run is as follows:
 Study your workshop solution, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.
 Create a **text** file named `reflect.txt` that contains the answers to the following questions 
 
-1. Do you prefer the overloading of += and -= (ie *client[0] += 5000; *client[1] -= 5000;) or would you prefer it if InvestmentAccount had functions to add cash and withdraw cash? Why?
-2.	Do you prefer the overloading of == (ie if (*client[0] == client3) {..} or would you prefer to call a function to compare two clients? Why?
+1. Do you prefer the overloading of += and -= (ie `*client[0] += 5000;` `*client[1] -= 5000;`) or would you prefer it if InvestmentAccount had functions to add cash and withdraw cash? Why?
+2.	Do you prefer the overloading of == (ie if (`*client[0] == client3) {..}` or would you prefer to call a function to compare two clients? Why?
 3.	Why might it be necessary to wipe out all information in the destructor of InvestmentAccount?
 
 
@@ -61,7 +61,10 @@ Create a **text** file named `reflect.txt` that contains the answers to the foll
 
 Test and demonstrate the execution of your program using the data given to you and make sure your code is generating output similar to the above example.
 
-Please email five files: `BankMain.cpp`, `BankManager.cpp`, `BankManager.h`, `InvestmentAccount.cpp` and `InvestmentAccount.h` in addition to the `reflect.txt` to email address: <mufleh.al-shatnawi@senecacollege.ca>
+
+
+- Please email five files: `BankMain.cpp`, `BankManager.cpp`, `BankManager.h`, `InvestmentAccount.cpp` and `InvestmentAccount.h` in addition to the `reflect.txt` to email address: <mufleh.al-shatnawi@senecacollege.ca>
+- Email Subject Line should be **SEP200-NAA-WS01**
 
 	> **Late submissions will incur a 25% penalty each day.**
 
