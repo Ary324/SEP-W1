@@ -18,7 +18,7 @@ Every file that you submit must contain (as a comment) at the top **your name**,
 You have been given five files: `BankMain.cpp`, `BankManager.cpp`, `BankManager.h`, `InvestmentAccount.cpp` and `InvestmentAccount.h`.
 
 - `BankMain.cpp` has been completely implemented for you. 
-- `BankManager.cpp` and `BankManager.h` are missing one function, the overload of the ** *==* operator**. 
+- `BankManager.cpp` and `BankManager.h` are missing one function, the overload of the ** == operator**. 
 - `InvestmentAccount.cpp` and `InvestmentAccount.h` are **mostly empty**. The only functions implemented are **PurchaseStocks** and **SellStocks**. The others have not.
 
 
