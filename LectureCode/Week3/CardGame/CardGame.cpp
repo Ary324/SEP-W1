@@ -1,6 +1,6 @@
 //CardGame.cpp - main function for the card game
 //
-// 15-Feb-21  M. Watler         Created.
+//
 
 #include <iostream>
 #include "Player.h"
