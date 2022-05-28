@@ -1,5 +1,5 @@
 # Workshop 2: Real Estate
-## Due Date: Friday, June 2, 2022 before 23:59
+## Due Date: Friday, June 3, 2022 before 23:59
 ## Workshop Objectives  
 This workshop will test your ability to perform deep and shallow copies, overload operators, friendship, and use the copy constructor and assignment as well as the move constructor and assignment.
 
