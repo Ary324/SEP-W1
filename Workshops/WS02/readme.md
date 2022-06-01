@@ -47,7 +47,7 @@ You have been given a header file for House and a main file for testing: `House.
 ### Sample Output
 A sample run is as follows:
 ```
-	Owner:     Lionel Messi
+    Owner:     Lionel Messi
     Address:   34 Cedarwood Road
     Rooms:     5.00
     Bathrooms: 2.50

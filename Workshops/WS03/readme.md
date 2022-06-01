@@ -1,4 +1,4 @@
-# Workshop 2: Amazon Purchases
+# Workshop 3: Amazon Purchases
 ## Due Date: Friday, June 10, 2022 before 23:59
 ## Workshop Objectives  
 This workshop will test your ability to create and use base classes and derived classes.
