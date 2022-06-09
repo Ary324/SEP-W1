@@ -16,5 +16,6 @@ The code is as follows: `iComponent.h`, `Component.h`, `Component.cpp`, `Capacit
 
 The Stooge factory is an example of the factory design pattern, which can create a set of related objects through a static make_stooge() function. The program is based on the popular comedy "The Three Stooges". The factory can create three stooges: Larry, Curly and Moe. They are tied together through a common base class. `StoogeMain.cpp` allows you to create whichever stooge you wish, up to three of them, via dynamic binding: `Stooge.h`, `Stooge.cpp`, `Curly.h`, `Larry.h`, `Moe.h` and `StoogeMain.cpp`.
 
-**Note that a virtual destructor is declared in the abstract base class in order to invoke the destructors in the derived classes. **
+
+**Note that a virtual destructor is declared in the abstract base class in order to invoke the destructors in the derived classes.**
 
